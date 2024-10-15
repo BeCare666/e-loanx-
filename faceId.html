@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Detection</title>
+    <link rel="stylesheet" href="faceId.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <link rel="shortcut icon" href="img/Logo-2.png" type="image/x-icon">
+    <script defer src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-storage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.min.css">
+    <script src="https://unpkg.com/jquery"></script>
+	<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+</head>
+<body>
+    <div class="container" id="divvideoInput">
+        <video id="videoInput" autoplay muted></video>
+        <canvas id="overlay"></canvas>
+        <button class="btn-capture" id="captureBtn" style="display: none;">   
+        </button>
+        <!--<div id="errorMsg">No face detected. Please try again.</div>-->
+    </div>
+    <div id="preloader" style="display: none;"></div>
+    <script src="faceId.js" type="module"></script>
+    <script src="translate/translate.js" type="module"></script>
+</body>
+</html>

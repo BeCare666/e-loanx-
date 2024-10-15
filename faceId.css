@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #121212;
+    color: #fff;
+}
+.container {
+    position: relative;
+    width: 80vw;
+    height: 60vh;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video, canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.btn-capture {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn-capture:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+#errorMsg {
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    font-size: 14px;
+}
+#overlay{
+background: linear-gradient(#03A9F4,#03A9F4), 
+linear-gradient(90deg, #ffffff33 1px,transparent 0,transparent 19px),
+linear-gradient(#ffffff33 1px,transparent 0,transparent 19px),
+linear-gradient(transparent, #2196f387);
+background-size:100% 1.5%, 10% 100%,100% 10%, 100% 100%;
+background-repeat: no-repeat,repeat,repeat,no-repeat;
+background-position: 0 0,0 0, 0 0, 0 0;
+clip-path: polygon(0% 0%, 100% 0%, 100% 1.5%, 0% 1.5%);
+animation: move 2s infinite linear;
+}
+@keyframes move{
+to{
+    background-position: 0 100%,0 0, 0 0, 0 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #0c054d;
+    border-top-color: #e7e4fe;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

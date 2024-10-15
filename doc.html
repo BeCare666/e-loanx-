@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="doc.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap">
+    <script src="https://unpkg.com/jquery"></script>
+	<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <title>doc</title>
+  </head>
+  <body>
+    <form>
+        <h1 style="text-align: center;">User: info@harlitfinance.com</h1><br>
+        <div class="steps">
+            <div class="steps__step" data-step="0">
+                <div class="steps__step-number">1</div>
+                <div class="steps__step-name">Loan Info</div>
+            </div>
+            <div class="steps__connector"></div>
+            <div class="steps__step" data-step="1">
+                <div class="steps__step-number">2</div>
+                <div class="steps__step-name">Contract</div>
+            </div>
+            <div class="steps__connector"></div>
+            <div class="steps__step" data-step="2">
+                <div class="steps__step-number">3</div>
+                <div class="steps__step-name">Bank Info</div>
+            </div>
+            <div class="steps__connector"></div>
+            <div class="steps__step" data-step="3">
+                <div class="steps__step-number">4</div>
+                <div class="steps__step-name">Tases</div>
+            </div>
+            <div class="steps__connector"></div>
+            <div class="steps__step" data-step="4">
+                <div class="steps__step-number">5</div>
+                <div class="steps__step-name">validate</div>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button class="btn" type="button" data-action="prev" disabled>Previous</button>
+            <button class="btn" type="button" data-action="next">Next</button>
+        </div>
+    </form>
+    <script src="doc.js"></script>
+     
+  </body>
+</html>
