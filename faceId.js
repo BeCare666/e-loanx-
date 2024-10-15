@@ -13,7 +13,7 @@ const database = firebase.database();
 const userRef = database.ref(`/utilisateurs/${userId}`);
 userRef.once("value")
 .then((snapshot) => {
-if(!snapshot.exists()){
+if(snapshot.exists()){
     let scanningLineY = 0;
     let canvas, context, video, latestDetections = []; // Initialiser la variable avec un tableau vide
     async function startVideo() {
