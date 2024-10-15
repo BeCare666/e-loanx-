@@ -39,8 +39,16 @@
     <div class="custom-cursor__cursor custom-cursor__hover" style="transform: translate3d(calc(-50% + 382px), calc(-50% + 444px), 0px);"></div>
     <div class="custom-cursor__cursor-two" style="left: 382px; top: 444px;"></div>
 
-    <div class="preloader" style="display: none;">
-        <div class="preloader__image" style="background-image: url(https://bracketweb.com/easilon-html-main/assets/images/loader.png);"></div>
+    <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="round_spinner">
+                <div class="spinner"></div>
+                <div class="text">
+                    <img src="img/logo-light.png" alt=""> 
+                    
+                </div>
+            </div>
+        </div>
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
@@ -2879,6 +2887,13 @@
         <span class="scroll-to-top__text">back top</span>
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner" style="width: 3.10472%;"></span></span>
     </a>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        // Ta fonction ici
+        document.getElementById('preloader').style.display = "none"
+    });
+
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
