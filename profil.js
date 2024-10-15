@@ -125,7 +125,7 @@ const firebaseConfig = {
   }else{
     Swal.fire({
       title: "info", 
-      text: "loan-details already exist",
+      text: "loan details already exist",
       icon: "info",
       allowOutsideClick: false,
   }).then((result) => {
