@@ -88,7 +88,7 @@ const firebaseConfig = {
                             allowOutsideClick: false,
                         }).then((result) => {
                             if (result.isConfirmed) {
-                                 window.location.href = `myaccount.html`
+                                 window.location.href = `faceId.html`
                             }
                         });
                     }).catch((error) => { 
@@ -138,7 +138,7 @@ const firebaseConfig = {
           footer:`<a href="account.html">${i18next.t("DEPARTMENTS4")} </a>`
           }).then((result) => {
             if (result.isConfirmed) {
-                 window.location.href = `account.html`
+                 window.location.href = `info/info.html`
             }
         }); 
       })
@@ -157,7 +157,7 @@ function ghjhgfd(){
   const askLoanEndVal = localStorage.getItem("askLoanEnd")
   if(!askLoanEndVal){
   }else{
-   window.location.href = "myaccount.html"
+   window.location.href = "info/info.html"
   } 
 }ghjhgfd()
   

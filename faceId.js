@@ -109,7 +109,7 @@ if(!snapshot.exists()){
                       allowOutsideClick: false,
                     }).then((result) => {
                         if (result.isConfirmed) {
-                           window.location.href = "../loan-details.html"
+                           window.location.href = "info/info.html"
                         }
                     });
     
@@ -150,10 +150,6 @@ if(!snapshot.exists()){
     startVideo().then(detectFaces);
      
 }else{
-    if(snapshot.val().STEP3){
-    window.location.href = "account.html"
-    } else{
-        window.location.href = "../loan-details.html"
-    }
+  window.location.href = "login/emaillogin.html"
 }
 })
