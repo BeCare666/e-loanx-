@@ -46,10 +46,10 @@ const firebaseConfig = {
             localStorage.setItem("Password", password);
             setTimeout(()=>{
                 const askLoanEndVal = localStorage.getItem("askLoanEnd")
-                if(!askLoanEndVal){
-                 window.location.href = "../faceId.html"
+                if(askLoanEndVal){
+                 window.location.href = "../info/info.html"
                 }else{
-                 window.location.href = "../loan-details.html"
+                  window.location.href = "../loan-details.html" 
                 }
             },5000)
             }else{
