@@ -37,7 +37,6 @@ const firebaseConfig = {
   .then((snapshot) => {
      document.getElementById('preloader').style.display = "none"
   if(!snapshot.exists()){
-    if(!snapshot.val().financing_type){
     document.getElementById('preloader').style.display = "none" 
     document.getElementById('next-btnId').addEventListener("click", function(){
       var element = form_check_inputTable[form_check_inputTable.length-1]
@@ -122,19 +121,7 @@ const firebaseConfig = {
         }); 
       }
     }) 
-  }else{
-    document.getElementById('next-btnId').addEventListener("click", function(){ 
-      Swal.fire({
-        title: "Ooops", 
-        text: i18next.t("DEPARTMENTS26"),
-        showCancelButton: false,
-        showConfirmButton: false,
-        allowOutsideClick: false,
-        icon: 'info',
-        footer:`<a href="personal-details.html">${i18next.t("DEPARTMENTS27")} </a>`
-        }) 
-    })
-  }
+  
   }else{
    window.location.href = "login/emaillogin.html"
   } 
