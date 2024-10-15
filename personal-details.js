@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAdpKwXX_dtdjaQ7ia0OC7VxQNw-_nI_iY",
-  authDomain: "arlitfinance.firebaseapp.com",
-  databaseURL: "https://arlitfinance-default-rtdb.firebaseio.com",
-  projectId: "arlitfinance",
-  storageBucket: "arlitfinance.appspot.com",
-  messagingSenderId: "1012825535505",
-  appId: "1:1012825535505:web:767da3656b27c1b994edb0"
+  apiKey: "AIzaSyBh9RfyG1I8joL_tdCnOsZiQ84ay8F6yIQ",
+  authDomain: "e-loanx.firebaseapp.com",
+  databaseURL: "https://e-loanx-default-rtdb.firebaseio.com",
+  projectId: "e-loanx",
+  storageBucket: "e-loanx.appspot.com",
+  messagingSenderId: "621562055256",
+  appId: "1:621562055256:web:b25718dc69b8c436de982d"
     };
     const unserconnectId = localStorage.getItem("unserconnect") 
     firebase.initializeApp(firebaseConfig);
@@ -21,7 +21,7 @@ const firebaseConfig = {
     firebase.auth().onAuthStateChanged(function(user) { 
     if(user){
     var userId = user.uid;
-    console.log(userId)
+    alert(userId)
     localStorage.setItem('unserconnectuserId', userId) 
     const userRef = database.ref(`/utilisateurs/${userId}`);
     userRef.once("value")
@@ -126,7 +126,7 @@ const firebaseConfig = {
     const askLoanEndVal = localStorage.getItem("askLoanEnd")
     if(!askLoanEndVal){
     }else{
-     window.location.href = "myaccount.html"
+     window.location.href = "info/info.html"
     }
   
   
