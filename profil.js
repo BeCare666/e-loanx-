@@ -35,7 +35,7 @@ const firebaseConfig = {
   const userRef = database.ref(`/utilisateurs/${userId}`);
   userRef.once("value")
   .then((snapshot) => {
-     document.getElementById('preloader').style.display = "none"
+  document.getElementById('preloader').style.display = "none"
   if(!snapshot.exists()){
     document.getElementById('preloader').style.display = "none" 
     document.getElementById('next-btnId').addEventListener("click", function(){
@@ -122,9 +122,7 @@ const firebaseConfig = {
       }
     }) 
   
-  }else{
-   window.location.href = "login/emaillogin.html"
-  } 
+  }
   })
   }else{
      window.location.href = "login/emaillogin.html"
