@@ -122,7 +122,8 @@ const firebaseConfig = {
                             allowOutsideClick: false,
                         }).then((result) => {
                             if (result.isConfirmed) {
-                                 window.location.href = `myaccount.html`
+                                 window.location.reload()
+
                             }
                         });
                     }).catch((error) => { 
@@ -167,13 +168,6 @@ const firebaseConfig = {
     
     })
   
-function ghjhgfd(){
-  const askLoanEndVal = localStorage.getItem("askLoanEnd")
-  if(!askLoanEndVal){
-  }else{
-   window.location.href = "myaccount.html"
-  } 
-}ghjhgfd()
   
   
   
