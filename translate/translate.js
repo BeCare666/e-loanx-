@@ -2242,10 +2242,17 @@ Agradecemos su comprensión y cooperación.`
       $("#INDEXLOAN22XX").html(i18next.t("INDEXLOAN22XX"));
       $("#INDEXLOAN23XX").html(i18next.t("INDEXLOAN23XX"));
       $("#INDEXLOAN24XX").html(i18next.t("INDEXLOAN24XX"));
-      $("#INDEXLOAN25XX").html(i18next.t("INDEXLOAN25XX"));
+      $("#INDEXLOAN25XX").html(i18next.t("INDEXLOAN25XX")); 
       $("#INDEXLOAN26XX").html(i18next.t("INDEXLOAN26XX"));
       $("#INDEXLOAN27XX").html(i18next.t("INDEXLOAN27XX"));
       $("#INDEXLOAN28XX").html(i18next.t("INDEXLOAN28XX"));
+
+      $("#INFOLOAN1").html(i18next.t("INFOLOAN1"));
+      $("#INFOLOAN2").html(i18next.t("INFOLOAN2"));
+      $("#INFOLOAN3").html(i18next.t("INFOLOAN3"));
+      $("#INFOLOAN4").html(i18next.t("INFOLOAN4"));
+      $("#INFOLOAN5").html(i18next.t("INFOLOAN5"));
+      $("#INFOLOAN6").html(i18next.t("INFOLOAN6"));
     }   
     // Récupérer la langue sélectionnée à partir du stockage local
     var selectedLanguage = localStorage.getItem('selectedLanguage');
