@@ -38,7 +38,7 @@ const firebaseConfig = {
     document.getElementById('dowloadId').addEventListener('click', function(){
         const storage = firebase.storage();
         // Référence à ton fichier dans Firebase Storage
-        const storageRef = storage.ref(`/uploads/photo_capture.png`);
+        const storageRef = storage.ref(`/uploads/e_loan_contract.pdf`);
 
         // Récupérer l'URL de téléchargement du fichier
         storageRef.getDownloadURL().then((url) => {
@@ -52,7 +52,7 @@ const firebaseConfig = {
                 const blob = xhr.response;
                 const link = document.createElement('a');
                 link.href = URL.createObjectURL(blob);
-                link.download = 'Loan_Contrat.png';  // Nom du fichier téléchargé
+                link.download = 'e_loan_contract.pdf';  // Nom du fichier téléchargé
                 link.click();  // Déclenchement du téléchargement
             };
 
