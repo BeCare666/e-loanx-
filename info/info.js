@@ -170,7 +170,7 @@ const firebaseConfig = {
   
     const linkInputx = document.getElementById('linkInputx');
     const copyButtonx = document.getElementById('affiliateIDxQ');
-    copyButtonx.innerHTML = `Click to copy adress`
+    copyButtonx.innerHTML = `Click to copy adress  <span class="icon"><i class="bi bi-copy"></i></span>`
     copyButtonx.addEventListener('click', () => {
         linkInputx.value = `HDGJBS686hkjhg578GJKKcsfg345678LJEGeifd2467ETEBNE`
         copyButtonx.innerHTML = `HDGJBS686hkjhg578GJKKcsfg345678LJEGeifd2467ETEBNE`
