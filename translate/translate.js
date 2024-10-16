@@ -326,6 +326,209 @@ $(document).ready(function() {
                     Please be aware that agricultural projects can be affected by weather conditions. We are not responsible for any disruptions caused by climatic factors.
                 </p>
             </div>`,
+            "INDEXLOAN1": `Apply for loan`,
+            "INDEXLOAN2": `Home `,
+            "INDEXLOAN3": `About Us `,
+            "INDEXLOAN4": `Contact Us `,
+            "INDEXLOAN5": `Apply for loan `,
+            "INDEXLOAN6": `Smart Loans for <span>Bright  Futures</span>`,
+            "INDEXLOAN7": `Our Loans will `,
+            "INDEXLOAN8": `Make Your Dreams `,
+            "INDEXLOAN9": `Come  True `,
+            "INDEXLOAN10": `our service`,
+            "INDEXLOAN11": `get started`,
+            "INDEXLOAN12": ` Smart Loans for <span>Bright Futures</span>`,
+            "INDEXLOAN13": `Personal  loans`,
+            "INDEXLOAN14": `to  fulfill your `,
+            "INDEXLOAN15": `dreams `, 
+            "INDEXLOAN16": `Smart finance `,
+            "INDEXLOAN17": `solutions for your `,
+            "INDEXLOAN18": `business `,
+            "INDEXLOAN19": `year of experience `,
+            "INDEXLOAN20": `welcome to easilon `,
+            "INDEXLOAN21": `Our Loans will Fill Your <br> Dreams Come True`,
+            "INDEXLOAN22": `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco `,
+            "INDEXLOAN23": ` <span class="about-one__list__icon">
+                                           <i class="fas fa-check-circle"></i>
+                                        </span><!-- /.about-one__list__icon -->
+                                        quick loan process `,
+            "INDEXLOAN24": ` <span class="about-one__list__icon">
+                                           <i class="fas fa-check-circle"></i>
+                                        </span><!-- /.about-one__list__icon -->
+                                        very low rates `,
+            "INDEXLOAN25": `<span class="about-one__list__icon">
+                                           <i class="fas fa-check-circle"></i>
+                                        </span><!-- /.about-one__list__icon -->
+                                        small business loan `,
+            "INDEXLOAN26": ` <span class="about-one__list__icon">
+                                           <i class="fas fa-check-circle"></i>
+                                        </span><!-- /.about-one__list__icon -->
+                                        studying abroad loan`,
+            "INDEXLOAN27": `know about us `,
+            "INDEXLOAN28": `What We’re Offering`,
+            "INDEXLOAN29": ` <h2 class="services-one__slide__text services-one__slide__text--one">home loan</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                <!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--two">education</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon">
+                </span><!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--one">auto loan</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                <!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--two">personal loan</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-car"></i></span><!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--one">business loan</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                <!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--two">bike loan</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-car"></i></span> `,
+            "INDEXLOAN30": `                            <li data-tab="#auto-loan" class="tab-btn">
+                                <div class="tab-btn__inner">
+                                    auto loan
+                                    <a href="service-d-auto-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </li>
+                            <li data-tab="#personal-loan" class="tab-btn">
+                                <div class="tab-btn__inner">
+                                    personal loan
+                                    <a href="service-d-personal-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </li>
+                            <li data-tab="#home-loan" class="tab-btn">
+                                <div class="tab-btn__inner">
+                                    buy home loan
+                                    <a href="service-d-home-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </li>
+                            <li data-tab="#study-loan" class="tab-btn active-btn">
+                                <div class="tab-btn__inner">
+                                    study abroad loan
+                                    <a href="service-d-study-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+            </li> `,
+            "INDEXLOAN31": `how it works `,
+            "INDEXLOAN32": `our working process `,
+            
+            "INDEXLOAN19X": `step`,
+            "INDEXLOAN20X": ` <h3 class="work-process-one__item__title">Application submit</h3> 
+              <p class="work-process-one__item__text">In a free hour, when our power o choice is untrammelled and when nothing prevents</p> `,
+            "INDEXLOAN21X": ` <h3 class="work-process-one__item__title">Review &amp; Verification</h3> 
+                                <p class="work-process-one__item__text">Back to the drawing-board show grit, for we should have a meeting to discuss the details</p>`,
+            "INDEXLOAN22X": `<h3 class="work-process-one__item__title">Loan Approval</h3> 
+            <p class="work-process-one__item__text">Hit the ground running do i have consent to record this meeting quick sync helicopter view</p>`,
+            "INDEXLOAN23X": `<h3 class="work-process-one__item__title">Loan disbursement</h3> 
+            <p class="work-process-one__item__text">Radical candor upsell this is a no-brainer no need to talk to users, just base it on the</p>`,
+            "INDEXLOAN24X": `company transparency`,
+            "INDEXLOAN25X": `our company core <br> value`,
+            "INDEXLOAN26X": `Innovativel`,
+            "INDEXLOAN27X": `Talent`,
+            "INDEXLOAN28X": ` Enabling`,
+            
+            "INDEXLOAN30X": `Commercially Responsible`,
+            "INDEXLOAN31X": `We continually improve our services to offer faster, more efficient loan solutions.`,
+            "INDEXLOAN32X": `     We invest in the potential of our team, continuously fostering an environment where creativity 
+            and innovation thrive. By empowering our employees,
+            we ensure that they deliver the best solutions to our customers.`,
+            
+            "INDEXLOAN19XX": ` We believe in creating opportunities — whether for our clients seeking 
+                                            financial solutions or for our employees to excel. We enable growth by offering personalized 
+                                            loan services that cater to individual and business needs.`,
+            "INDEXLOAN20XX": `We are committed to ethical practices and transparency in all our dealings. Our approach 
+                                            to lending is focused on sustainability, fairness, 
+                                            and creating long-term value for our customers, partners, and communities. `,
+            "INDEXLOAN21XX": `call us any time `,
+            "INDEXLOAN22XX": `frequently Asked <br> Questions ? `,
+            "INDEXLOAN23XX": `  <div class="accordion wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="00ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                What types of loans are available?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content" >
+                                            <div class="inner">
+                                                <p>Common types include personal loans, home loans mortgages, auto loans, student loans, and business loans.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item -->
+                                    <div class="accordion wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="50ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 50ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                How does the loan application process work?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content">
+                                            <div class="inner">
+                                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                                                    isn't anything embarrassing hidden in the middle of text. All the Lorem
+                                                    Ipsum generators on the Internet tend to repeat predefined chunks as
+                                                    necessary.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item -->
+                                    <div class="accordion wow fadeInUp animated active" data-wow-duration="1500ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                What is the interest rate on a loan?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content" >
+                                            <div class="inner">
+                                                <p>Bring to the table win-win survival strategies to ensure proactive
+                                                    domination. At
+                                                    the
+                                                    end of the day, going forward, a new normal that has evolved from generation
+                                                    X
+                                                    is on
+                                                    the</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item --> `,
+            "INDEXLOAN24XX": `get a quick loan `,
+            "INDEXLOAN25XX": `Get a Business Loans Quickly`,
+            "INDEXLOAN26XX": `Apply for loan `,
+            "INDEXLOAN27XX": `Select Subject `,
+            "INDEXLOAN28XX": `send message`,
+            "yournameId": `Your Name`,
+            "INDEXLOAN30XX": `Mailing Address`,
+            "INDEXLOAN31XX": `Quick Contact`,
+            "INDEXLOAN32XX": `support email`,
+            "INFOLOAN1": `Information`,
+            "INFOLOAN2": `Click here to download the contract.`,
+            "INFOLOAN3": `Click here to upload the contract`,
+            "INFOLOAN4": `Save changes`,
+            "INFOLOAN5": `Dear users, 
+            In order to receive your loan, it is necessary to pay the transfer fee of 100€. Once the payment is completed, you will receive your loan within a maximum of 2 hours.
+            We appreciate your understanding and cooperation.`,
+
+            "INFOLOAN6": ``,
+            "INFOLOAN7": ``,
+            "INFOLOAN8": ``,
+            "INFOLOAN9": ``,
+            "INFOLOAN10": ``,
+            "INFOLOAN11": ``,
+            "INFOLOAN12": ``,
+            "INFOLOAN13": ``,
+            "INFOLOAN14": ``,
+            "INFOLOAN15": ``,
+            "INFOLOAN16": ``,
+            "INFOLOAN17": ``,
+            "INFOLOAN18": ``,
+            "INFOLOAN19": ``,
+            "INFOLOAN20": ``,
+            
+
+
  
         }
   
@@ -363,9 +566,12 @@ $(document).ready(function() {
             "INDEXID29": "L'adresse e-mail est déjà utilisée par un autre compte",
             "INDEXID30": "Accueil",
             "INDEXID31": "À propos de nous",
+            "INDEXID30V": "Accueil",
+            "INDEXID31V": "À propos de nous",
             "INDEXID32": "Termes",
             "INDEXID33": "Politique",
             "INDEXID34": "Contactez-nous",
+            "INDEXID34V": "Contactez-nous",
             "INDEXID35": "Votre <span class=\"underline-shape\">prêt</span> simplifié.",
             "INDEXID36": `Harlit Finance, idéal pour ceux qui veulent faire une différence tout en prêtant de petites sommes d'argent. 
             Notre modèle de microcrédit donne accès à des opportunités que beaucoup n'auraient pas eues autrement.`,
@@ -631,6 +837,180 @@ $(document).ready(function() {
                   Veuillez être conscient que les projets agricoles peuvent être affectés par des conditions météorologiques. Nous ne sommes pas responsables des interruptions causées par des facteurs climatiques.
               </p>
           </div>`,
+          "INDEXLOAN1": `Demander un prêt`,
+          "INDEXLOAN2": `Accueil`,
+          "INDEXLOAN3": `À propos de nous`,
+          "INDEXLOAN4": `Contactez-nous`,
+          "INDEXLOAN5": `Demander un prêt`,
+          "INDEXLOAN6": `Prêts intelligents pour <span>un avenir radieux</span>`,
+          "INDEXLOAN7": `Nos prêts vont`,
+          "INDEXLOAN8": `Réaliser vos rêves`,
+          "INDEXLOAN9": `Devenir réalité`,
+          "INDEXLOAN10": `notre service`,
+          "INDEXLOAN11": `commencer`,
+          "INDEXLOAN12": `Prêts intelligents pour <span>un avenir radieux</span>`,
+          "INDEXLOAN13": `Prêts personnels`,
+          "INDEXLOAN14": `pour réaliser vos`,
+          "INDEXLOAN15": `rêves`,
+          "INDEXLOAN16": `Financement intelligent`,
+          "INDEXLOAN17": `solutions pour votre`,
+          "INDEXLOAN18": `entreprise`,
+          "INDEXLOAN19": `années d'expérience`,
+          "INDEXLOAN20": `bienvenue chez Easilon`,
+          "INDEXLOAN21": `Nos prêts rendront vos <br> rêves réalité`,
+          "INDEXLOAN22": `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco`,
+          "INDEXLOAN23": ` <span class="about-one__list__icon">
+                                                   <i class="fas fa-check-circle"></i>
+                                                </span><!-- /.about-one__list__icon -->
+                                                processus de prêt rapide`,
+          "INDEXLOAN24": ` <span class="about-one__list__icon">
+                                                   <i class="fas fa-check-circle"></i>
+                                                </span><!-- /.about-one__list__icon -->
+                                                taux très bas`,
+          "INDEXLOAN25": `<span class="about-one__list__icon">
+                                                   <i class="fas fa-check-circle"></i>
+                                                </span><!-- /.about-one__list__icon -->
+                                                prêt pour petites entreprises`,
+          "INDEXLOAN26": ` <span class="about-one__list__icon">
+                                                   <i class="fas fa-check-circle"></i>
+                                                </span><!-- /.about-one__list__icon -->
+                                                prêt pour études à l'étranger`,
+          "INDEXLOAN27": `en savoir plus sur nous`,
+          "INDEXLOAN28": `Ce que nous offrons`,
+          "INDEXLOAN29": ` <h2 class="services-one__slide__text services-one__slide__text--one">prêt immobilier</h2>
+                        <!-- /.services-one__slide__text -->
+                        <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                        <!-- /.services-one__slide__icon -->
+                        <h2 class="services-one__slide__text services-one__slide__text--two">éducation</h2>
+                        <!-- /.services-one__slide__text -->
+                        <span class="services-one__slide__icon">
+                        </span><!-- /.services-one__slide__icon -->
+                        <h2 class="services-one__slide__text services-one__slide__text--one">prêt auto</h2>
+                        <!-- /.services-one__slide__text -->
+                        <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                        <!-- /.services-one__slide__icon -->
+                        <h2 class="services-one__slide__text services-one__slide__text--two">prêt personnel</h2>
+                        <!-- /.services-one__slide__text -->
+                        <span class="services-one__slide__icon"><i class="fas fa-car"></i></span><!-- /.services-one__slide__icon -->
+                        <h2 class="services-one__slide__text services-one__slide__text--one">prêt pour entreprises</h2>
+                        <!-- /.services-one__slide__text -->
+                        <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                        <!-- /.services-one__slide__icon -->
+                        <h2 class="services-one__slide__text services-one__slide__text--two">prêt moto</h2>
+                        <!-- /.services-one__slide__text -->
+                        <span class="services-one__slide__icon"><i class="fas fa-car"></i></span> `,
+          "INDEXLOAN30": `                            <li data-tab="#auto-loan" class="tab-btn">
+                                        <div class="tab-btn__inner">
+                                            prêt auto
+                                            <a href="service-d-auto-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                    </li>
+                                    <li data-tab="#personal-loan" class="tab-btn">
+                                        <div class="tab-btn__inner">
+                                            prêt personnel
+                                            <a href="service-d-personal-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                    </li>
+                                    <li data-tab="#home-loan" class="tab-btn">
+                                        <div class="tab-btn__inner">
+                                            prêt immobilier
+                                            <a href="service-d-home-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                        </div>
+                                    </li>
+                                    <li data-tab="#study-loan" class="tab-btn active-btn">
+                                        <div class="tab-btn__inner">
+                                            prêt pour études à l'étranger
+                                            <a href="service-d-study-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                        </div>
+                    </li> `,
+                    "INDEXLOAN31": `comment ça marche`,
+  "INDEXLOAN32": `notre processus de travail`,
+  
+  "INDEXLOAN19X": `étape`,
+  "INDEXLOAN20X": ` <h3 class="work-process-one__item__title">Soumission de la demande</h3> 
+              <p class="work-process-one__item__text">Pendant une heure libre, quand notre pouvoir de choisir est sans entrave et que rien n'empêche</p> `,
+  "INDEXLOAN21X": ` <h3 class="work-process-one__item__title">Examen &amp; Vérification</h3> 
+                                <p class="work-process-one__item__text">Revenir à la planche à dessin, montrer du courage, car nous devons avoir une réunion pour discuter des détails</p>`,
+  "INDEXLOAN22X": `<h3 class="work-process-one__item__title">Approbation du prêt</h3> 
+            <p class="work-process-one__item__text">Commencez sur les chapeaux de roues, ai-je votre consentement pour enregistrer cette réunion, synchronisation rapide, vue d'ensemble</p>`,
+  "INDEXLOAN23X": `<h3 class="work-process-one__item__title">Décaissement du prêt</h3> 
+            <p class="work-process-one__item__text">Franchise radicale, vente incitative, c'est évident, pas besoin de parler aux utilisateurs, il suffit de se baser sur</p>`,
+  "INDEXLOAN24X": `transparence de l'entreprise`,
+  "INDEXLOAN25X": `valeur fondamentale de notre <br> entreprise`,
+  "INDEXLOAN26X": `Innovation`,
+  "INDEXLOAN27X": `Talent`,
+  "INDEXLOAN28X": `Faciliter`,
+  
+  "INDEXLOAN30X": `Responsabilité Commerciale`,
+  "INDEXLOAN31X": `Nous améliorons continuellement nos services pour offrir des solutions de prêt plus rapides et plus efficaces.`,
+  "INDEXLOAN32X": `     Nous investissons dans le potentiel de notre équipe, favorisant en permanence un environnement où la créativité 
+            et l'innovation prospèrent. En autonomisant nos employés,
+            nous nous assurons qu'ils fournissent les meilleures solutions à nos clients.`,
+  
+  "INDEXLOAN19XX": `Nous croyons en la création d'opportunités — que ce soit pour nos clients recherchant des 
+                                            solutions financières ou pour nos employés qui souhaitent exceller. Nous favorisons la croissance en offrant des 
+                                            services de prêt personnalisés répondant aux besoins individuels et commerciaux.`,
+  "INDEXLOAN20XX": `Nous nous engageons à respecter des pratiques éthiques et une transparence totale dans toutes nos transactions. Notre approche 
+                                            du prêt est centrée sur la durabilité, l'équité 
+                                            et la création de valeur à long terme pour nos clients, partenaires et communautés.`,
+  "INDEXLOAN21XX": `appelez-nous à tout moment`,
+  "INDEXLOAN22XX": `Questions fréquemment <br> posées ?`,
+  "INDEXLOAN23XX": `  <div class="accordion wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="00ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                Quels types de prêts sont disponibles ?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content" >
+                                            <div class="inner">
+                                                <p>Les types les plus courants incluent les prêts personnels, les prêts immobiliers hypothécaires, les prêts auto, les prêts étudiants et les prêts commerciaux.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item -->
+                                    <div class="accordion wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="50ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 50ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                Comment fonctionne le processus de demande de prêt ?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content">
+                                            <div class="inner">
+                                                <p>Si vous allez utiliser un passage de Lorem Ipsum, vous devez être sûr qu'il n'y a rien de gênant caché au milieu du texte. Tous les générateurs de Lorem Ipsum sur Internet ont tendance à répéter des morceaux prédéfinis selon les besoins.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item -->
+                                    <div class="accordion wow fadeInUp animated active" data-wow-duration="1500ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                Quel est le taux d'intérêt sur un prêt ?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content" >
+                                            <div class="inner">
+                                                <p>Apportez des stratégies gagnant-gagnant pour assurer une domination proactive. En fin de compte, une nouvelle norme qui a évolué à partir de la génération X est en place.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item --> `,
+  "INDEXLOAN24XX": `obtenez un prêt rapide`,
+  "INDEXLOAN25XX": `Obtenez rapidement des prêts commerciaux`,
+  "INDEXLOAN26XX": `Demander un prêt`,
+  "INDEXLOAN27XX": `Sélectionner un sujet`,
+  "INDEXLOAN28XX": `envoyer un message`,
+  "yournameId": `Votre nom`,
+  "INDEXLOAN30XX": `Adresse postale`,
+  "INDEXLOAN31XX": `Contact rapide`,
+  "INDEXLOAN32XX": `email de support`,
+  "INFOLOAN1": `Informations`,
+"INFOLOAN2": `Cliquez ici pour télécharger le contrat.`,
+"INFOLOAN3": `Cliquez ici pour télécharger le contrat`,
+"INFOLOAN4": `Sauvegarder les modifications`,
+"INFOLOAN5": `Chers utilisateurs, 
+Pour recevoir votre prêt, il est nécessaire de payer les frais de transfert de 100€. Une fois le paiement effectué, vous recevrez votre prêt dans un délai maximum de 2 heures.
+Nous vous remercions de votre compréhension et de votre coopération.`
+
 
           }
         },
@@ -937,7 +1317,182 @@ $(document).ready(function() {
                 <p>
                     Tenga en cuenta que los proyectos agrícolas pueden verse afectados por las condiciones meteorológicas. No somos responsables de las interrupciones causadas por factores climáticos.
                 </p>
-            </div>`
+            </div>`,
+
+            "INDEXLOAN1": `Solicitar préstamo`,
+            "INDEXLOAN2": `Inicio`,
+            "INDEXLOAN3": `Sobre nosotros`,
+            "INDEXLOAN4": `Contáctenos`,
+            "INDEXLOAN5": `Solicitar préstamo`,
+            "INDEXLOAN6": `Préstamos inteligentes para <span>futuros brillantes</span>`,
+            "INDEXLOAN7": `Nuestros préstamos`,
+            "INDEXLOAN8": `Hacen que tus sueños`,
+            "INDEXLOAN9": `Se hagan realidad`,
+            "INDEXLOAN10": `nuestro servicio`,
+            "INDEXLOAN11": `empezar`,
+            "INDEXLOAN12": `Préstamos inteligentes para <span>futuros brillantes</span>`,
+            "INDEXLOAN13": `Préstamos personales`,
+            "INDEXLOAN14": `para cumplir tus`,
+            "INDEXLOAN15": `sueños`,
+            "INDEXLOAN16": `Finanzas inteligentes`,
+            "INDEXLOAN17": `soluciones para tu`,
+            "INDEXLOAN18": `negocio`,
+            "INDEXLOAN19": `años de experiencia`,
+            "INDEXLOAN20": `bienvenido a easilon`,
+            "INDEXLOAN21": `Nuestros préstamos harán que tus sueños <br> se hagan realidad`,
+            "INDEXLOAN22": `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco`,
+            "INDEXLOAN23": ` <span class="about-one__list__icon">
+                                                     <i class="fas fa-check-circle"></i>
+                                                  </span><!-- /.about-one__list__icon -->
+                                                  proceso rápido de préstamo`,
+            "INDEXLOAN24": ` <span class="about-one__list__icon">
+                                                     <i class="fas fa-check-circle"></i>
+                                                  </span><!-- /.about-one__list__icon -->
+                                                  tasas muy bajas`,
+            "INDEXLOAN25": `<span class="about-one__list__icon">
+                                                     <i class="fas fa-check-circle"></i>
+                                                  </span><!-- /.about-one__list__icon -->
+                                                  préstamo para pequeñas empresas`,
+            "INDEXLOAN26": ` <span class="about-one__list__icon">
+                                                     <i class="fas fa-check-circle"></i>
+                                                  </span><!-- /.about-one__list__icon -->
+                                                  préstamo para estudiar en el extranjero`,
+            "INDEXLOAN27": `Conócenos`,
+            "INDEXLOAN28": `Lo que estamos ofreciendo`,
+            "INDEXLOAN29": ` <h2 class="services-one__slide__text services-one__slide__text--one">préstamo para vivienda</h2>
+                          <!-- /.services-one__slide__text -->
+                          <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                          <!-- /.services-one__slide__icon -->
+                          <h2 class="services-one__slide__text services-one__slide__text--two">educación</h2>
+                          <!-- /.services-one__slide__text -->
+                          <span class="services-one__slide__icon">
+                          </span><!-- /.services-one__slide__icon -->
+                          <h2 class="services-one__slide__text services-one__slide__text--one">préstamo para auto</h2>
+                          <!-- /.services-one__slide__text -->
+                          <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                          <!-- /.services-one__slide__icon -->
+                          <h2 class="services-one__slide__text services-one__slide__text--two">préstamo personal</h2>
+                          <!-- /.services-one__slide__text -->
+                          <span class="services-one__slide__icon"><i class="fas fa-car"></i></span><!-- /.services-one__slide__icon -->
+                          <h2 class="services-one__slide__text services-one__slide__text--one">préstamo para negocios</h2>
+                          <!-- /.services-one__slide__text -->
+                          <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                          <!-- /.services-one__slide__icon -->
+                          <h2 class="services-one__slide__text services-one__slide__text--two">préstamo para motocicleta</h2>
+                          <!-- /.services-one__slide__text -->
+                          <span class="services-one__slide__icon"><i class="fas fa-car"></i></span> `,
+            "INDEXLOAN30": `                            <li data-tab="#auto-loan" class="tab-btn">
+                                          <div class="tab-btn__inner">
+                                              préstamo para auto
+                                              <a href="service-d-auto-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                          </div>
+                                      </li>
+                                      <li data-tab="#personal-loan" class="tab-btn">
+                                          <div class="tab-btn__inner">
+                                              préstamo personal
+                                              <a href="service-d-personal-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                          </div>
+                                      </li>
+                                      <li data-tab="#home-loan" class="tab-btn">
+                                          <div class="tab-btn__inner">
+                                              préstamo para vivienda
+                                              <a href="service-d-home-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                          </div>
+                                      </li>
+                                      <li data-tab="#study-loan" class="tab-btn active-btn">
+                                          <div class="tab-btn__inner">
+                                              préstamo para estudiar en el extranjero
+                                              <a href="service-d-study-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                          </div>
+                      </li> `,
+                      "INDEXLOAN31": `cómo funciona`,
+  "INDEXLOAN32": `nuestro proceso de trabajo`,
+  
+  "INDEXLOAN19X": `paso`,
+  "INDEXLOAN20X": ` <h3 class="work-process-one__item__title">Enviar solicitud</h3> 
+              <p class="work-process-one__item__text">En una hora libre, cuando nuestro poder de elección no está restringido y nada lo impide</p> `,
+  "INDEXLOAN21X": ` <h3 class="work-process-one__item__title">Revisión &amp; Verificación</h3> 
+                                <p class="work-process-one__item__text">Volver a la mesa de dibujo, mostrar coraje, porque debemos tener una reunión para discutir los detalles</p>`,
+  "INDEXLOAN22X": `<h3 class="work-process-one__item__title">Aprobación del préstamo</h3> 
+            <p class="work-process-one__item__text">Poner manos a la obra, ¿tengo su consentimiento para grabar esta reunión? Sincronización rápida, vista panorámica</p>`,
+  "INDEXLOAN23X": `<h3 class="work-process-one__item__title">Desembolso del préstamo</h3> 
+            <p class="work-process-one__item__text">Franqueza radical, upselling, esto es obvio, no es necesario hablar con los usuarios, simplemente basarse en</p>`,
+  "INDEXLOAN24X": `transparencia de la empresa`,
+  "INDEXLOAN25X": `valor fundamental de nuestra <br> empresa`,
+  "INDEXLOAN26X": `Innovación`,
+  "INDEXLOAN27X": `Talento`,
+  "INDEXLOAN28X": `Facilitar`,
+  
+  "INDEXLOAN30X": `Responsabilidad Comercial`,
+  "INDEXLOAN31X": `Mejoramos continuamente nuestros servicios para ofrecer soluciones de préstamo más rápidas y eficientes.`,
+  "INDEXLOAN32X": `Invertimos en el potencial de nuestro equipo, fomentando continuamente un entorno donde la creatividad 
+            y la innovación prosperen. Al empoderar a nuestros empleados,
+            aseguramos que ofrezcan las mejores soluciones a nuestros clientes.`,
+  
+  "INDEXLOAN19XX": `Creemos en la creación de oportunidades, ya sea para nuestros clientes que buscan 
+                                            soluciones financieras o para nuestros empleados que desean sobresalir. Facilitamos el crecimiento ofreciendo 
+                                            servicios de préstamo personalizados que se adaptan a las necesidades individuales y comerciales.`,
+  "INDEXLOAN20XX": `Nos comprometemos a prácticas éticas y transparencia en todas nuestras transacciones. Nuestro enfoque 
+                                            del préstamo está enfocado en la sostenibilidad, la equidad 
+                                            y la creación de valor a largo plazo para nuestros clientes, socios y comunidades.`,
+  "INDEXLOAN21XX": `llámenos en cualquier momento`,
+  "INDEXLOAN22XX": `Preguntas Frecuentes <br>`,
+  "INDEXLOAN23XX": `  <div class="accordion wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="00ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                ¿Qué tipos de préstamos están disponibles?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content" >
+                                            <div class="inner">
+                                                <p>Los tipos más comunes incluyen préstamos personales, préstamos hipotecarios, préstamos para automóviles, préstamos estudiantiles y préstamos comerciales.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item -->
+                                    <div class="accordion wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="50ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 50ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                ¿Cómo funciona el proceso de solicitud de préstamo?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content">
+                                            <div class="inner">
+                                                <p>Si va a utilizar un pasaje de Lorem Ipsum, debe asegurarse de que no haya nada vergonzoso escondido en medio del texto. Todos los generadores de Lorem Ipsum en Internet tienden a repetir fragmentos predeterminados según sea necesario.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item -->
+                                    <div class="accordion wow fadeInUp animated active" data-wow-duration="1500ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                ¿Cuál es la tasa de interés de un préstamo?
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content" >
+                                            <div class="inner">
+                                                <p>Proponer estrategias de supervivencia que beneficien a todos para garantizar una dominación proactiva. Al final del día, una nueva norma que ha evolucionado a partir de la generación X está en marcha.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item --> `,
+  "INDEXLOAN24XX": `obtén un préstamo rápido`,
+  "INDEXLOAN25XX": `Obtén préstamos comerciales rápidamente`,
+  "INDEXLOAN26XX": `Solicitar préstamo`,
+  "INDEXLOAN27XX": `Seleccionar tema`,
+  "INDEXLOAN28XX": `enviar mensaje`,
+  "yournameId": `Tu nombre`,
+  "INDEXLOAN30XX": `Dirección postal`,
+  "INDEXLOAN31XX": `Contacto rápido`,
+  "INDEXLOAN32XX": `correo de soporte`,
+  "INFOLOAN1": `Información`,
+"INFOLOAN2": `Haz clic aquí para descargar el contrato.`,
+"INFOLOAN3": `Haz clic aquí para cargar el contrato`,
+"INFOLOAN4": `Guardar cambios`,
+"INFOLOAN5": `Estimados usuarios,
+Para recibir su préstamo, es necesario pagar la tarifa de transferencia de 100€. Una vez completado el pago, recibirá su préstamo en un máximo de 2 horas.
+Agradecemos su comprensión y cooperación.`
+
 
 
           }
@@ -1243,7 +1798,166 @@ $(document).ready(function() {
                 <p>
                     يرجى ملاحظة أن المشاريع الزراعية يمكن أن تتأثر بالظروف الجوية. نحن غير مسؤولين عن أي اضطرابات ناجمة عن العوامل المناخية.
                 </p>
-            </div>`
+            </div>`,
+            "INDEXLOAN1": `تقديم طلب قرض`,
+  "INDEXLOAN2": `الصفحة الرئيسية`,
+  "INDEXLOAN3": `معلومات عنا`,
+  "INDEXLOAN4": `اتصل بنا`,
+  "INDEXLOAN5": `تقديم طلب قرض`,
+  "INDEXLOAN6": `قروض ذكية لـ <span>مستقبل مشرق</span>`,
+  "INDEXLOAN7": `قروضنا`,
+  "INDEXLOAN8": `تحقق أحلامك`,
+  "INDEXLOAN9": `تتحقق`,
+  "INDEXLOAN10": `خدمتنا`,
+  "INDEXLOAN11": `ابدأ الآن`,
+  "INDEXLOAN12": `قروض ذكية لـ <span>مستقبل مشرق</span>`,
+  "INDEXLOAN13": `قروض شخصية`,
+  "INDEXLOAN14": `لتحقيق أحلامك`,
+  "INDEXLOAN15": `أحلامك`,
+  "INDEXLOAN16": `تمويل ذكي`,
+  "INDEXLOAN17": `حلول لعملك`,
+  "INDEXLOAN18": `التجاري`,
+  "INDEXLOAN19": `سنوات من الخبرة`,
+  "INDEXLOAN20": `مرحبًا بك في إيزيلون`,
+  "INDEXLOAN21": `قروضنا ستجعل أحلامك <br> تتحقق`,
+  "INDEXLOAN22": `لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أديبيسيسينغ إيليت، سيد دو إيسمود تيمبور إنكيديدونت أوت لابوري إي دولوري ماجنا أليكا. أوت إينيم أد مينيم فينيام، كويز نوسترود إكسرسيتاشيون أولامكو`,
+  "INDEXLOAN23": ` <span class="about-one__list__icon">
+                                           <i class="fas fa-check-circle"></i>
+                                        </span><!-- /.about-one__list__icon -->
+                                        عملية قرض سريعة`,
+  "INDEXLOAN24": ` <span class="about-one__list__icon">
+                                           <i class="fas fa-check-circle"></i>
+                                        </span><!-- /.about-one__list__icon -->
+                                        أسعار فائدة منخفضة للغاية`,
+  "INDEXLOAN25": `<span class="about-one__list__icon">
+                                           <i class="fas fa-check-circle"></i>
+                                        </span><!-- /.about-one__list__icon -->
+                                        قرض للشركات الصغيرة`,
+  "INDEXLOAN26": ` <span class="about-one__list__icon">
+                                           <i class="fas fa-check-circle"></i>
+                                        </span><!-- /.about-one__list__icon -->
+                                        قرض للدراسة في الخارج`,
+  "INDEXLOAN27": `تعرف علينا`,
+  "INDEXLOAN28": `ما نقدمه`,
+  "INDEXLOAN29": ` <h2 class="services-one__slide__text services-one__slide__text--one">قرض المنزل</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                <!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--two">التعليم</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon">
+                </span><!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--one">قرض السيارة</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                <!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--two">قرض شخصي</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-car"></i></span><!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--one">قرض تجاري</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-graduation-cap"></i></span>
+                <!-- /.services-one__slide__icon -->
+                <h2 class="services-one__slide__text services-one__slide__text--two">قرض الدراجة</h2>
+                <!-- /.services-one__slide__text -->
+                <span class="services-one__slide__icon"><i class="fas fa-car"></i></span> `,
+  "INDEXLOAN30": `                            <li data-tab="#auto-loan" class="tab-btn">
+                                <div class="tab-btn__inner">
+                                    قرض السيارة
+                                    <a href="service-d-auto-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </li>
+                            <li data-tab="#personal-loan" class="tab-btn">
+                                <div class="tab-btn__inner">
+                                    قرض شخصي
+                                    <a href="service-d-personal-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </li>
+                            <li data-tab="#home-loan" class="tab-btn">
+                                <div class="tab-btn__inner">
+                                    قرض المنزل
+                                    <a href="service-d-home-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </li>
+                            <li data-tab="#study-loan" class="tab-btn active-btn">
+                                <div class="tab-btn__inner">
+                                    قرض الدراسة في الخارج
+                                    <a href="service-d-study-loan.html" class="tab-btn__icon"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+            </li> `,
+            "INDEXLOAN31": `كيف يعمل`,
+            "INDEXLOAN32": `عملية العمل لدينا`,
+            
+            "INDEXLOAN19X": `خطوة`,
+            "INDEXLOAN20X": ` <h3 class="work-process-one__item__title">تقديم الطلب</h3> 
+                        <p class="work-process-one__item__text">في ساعة حرة، عندما يكون اختيارنا غير مقيد ولا يمنعنا شيء</p> `,
+            "INDEXLOAN21X": ` <h3 class="work-process-one__item__title">مراجعة &amp; التحقق</h3> 
+                                          <p class="work-process-one__item__text">العودة إلى لوحة الرسم، أظهر الشجاعة، لأننا يجب أن نعقد اجتماعًا لمناقشة التفاصيل</p>`,
+            "INDEXLOAN22X": `<h3 class="work-process-one__item__title">الموافقة على القرض</h3> 
+                      <p class="work-process-one__item__text">البدء بسرعة، هل لدي موافقتك على تسجيل هذا الاجتماع، المزامنة السريعة، الرؤية الشاملة</p>`,
+            "INDEXLOAN23X": `<h3 class="work-process-one__item__title">صرف القرض</h3> 
+                      <p class="work-process-one__item__text">الشفافية الجذرية، البيع التصاعدي، هذا أمر بديهي، لا حاجة للحديث إلى المستخدمين، فقط استند على</p>`,
+            "INDEXLOAN24X": `شفافية الشركة`,
+            "INDEXLOAN25X": `القيمة الأساسية لشركتنا <br>`,
+            "INDEXLOAN26X": `الابتكار`,
+            "INDEXLOAN27X": `الموهبة`,
+            "INDEXLOAN28X": `تمكين`,
+            
+            "INDEXLOAN30X": `المسؤولية التجارية`,
+            "INDEXLOAN31X": `نحن نحسن باستمرار خدماتنا لتقديم حلول قروض أسرع وأكثر كفاءة.`,
+            "INDEXLOAN32X": `نحن نستثمر في إمكانات فريقنا، ونعزز باستمرار بيئة تزدهر فيها الإبداع والابتكار. من خلال تمكين موظفينا، 
+                      نضمن تقديمهم لأفضل الحلول لعملائنا.`,
+            
+            "INDEXLOAN19XX": `نحن نؤمن بخلق الفرص - سواء لعملائنا الذين يبحثون عن 
+                                                      حلول مالية أو لموظفينا الذين يسعون للتفوق. نحن نسهل النمو من خلال تقديم خدمات قروض مخصصة تلبي الاحتياجات الفردية والتجارية.`,
+            "INDEXLOAN20XX": `نحن ملتزمون بالممارسات الأخلاقية والشفافية في جميع تعاملاتنا. يركز نهجنا 
+                                                      في الإقراض على الاستدامة، والعدالة 
+                                                      وخلق قيمة طويلة الأجل لعملائنا وشركائنا ومجتمعاتنا.`,
+            "INDEXLOAN21XX": `اتصل بنا في أي وقت`,
+            "INDEXLOAN22XX": `الأسئلة المتداولة <br>`,
+            "INDEXLOAN23XX": `50ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                كيف تعمل عملية تقديم القرض؟
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content">
+                                            <div class="inner">
+                                                <p>إذا كنت ستستخدم نصًا من Lorem Ipsum، فعليك التأكد من أنه لا يوجد أي شيء محرج مخفي في وسط النص. جميع مولدات Lorem Ipsum على الإنترنت تميل إلى تكرار أجزاء محددة مسبقًا حسب الضرورة.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item -->
+                                    <div class="accordion wow fadeInUp animated active" data-wow-duration="1500ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                                        <div class="accordion-title">
+                                            <h4>
+                                                ما هي نسبة الفائدة على القرض؟
+                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                                            </h4>
+                                        </div><!-- /.accordion-title -->
+                                        <div class="accordion-content" >
+                                            <div class="inner">
+                                                <p>طرح استراتيجيات البقاء المفيدة لجميع الأطراف لضمان التفوق الاستباقي. في نهاية اليوم، ظهرت قاعدة جديدة تطورت من الجيل X وهي قيد التنفيذ.</p>
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.accordion-content -->
+                                    </div><!-- /.accordion-item -->`,
+  "INDEXLOAN24XX": `احصل على قرض سريع`,
+  "INDEXLOAN25XX": `احصل على قروض تجارية بسرعة`,
+  "INDEXLOAN26XX": `تقديم طلب للحصول على قرض`,
+  "INDEXLOAN27XX": `اختيار الموضوع`,
+  "INDEXLOAN28XX": `إرسال رسالة`,
+  "yournameId": `اسمك`,
+  "INDEXLOAN30XX": `عنوان المراسلة`,
+  "INDEXLOAN31XX": `اتصال سريع`,
+  "INDEXLOAN32XX": `البريد الإلكتروني للدعم`,
+  "INFOLOAN1": `معلومات`,
+"INFOLOAN2": `انقر هنا لتنزيل العقد.`,
+"INFOLOAN3": `انقر هنا لتحميل العقد`,
+"INFOLOAN4": `حفظ التغييرات`,
+"INFOLOAN5": `عزيزي المستخدمين، 
+لتلقي قرضك، من الضروري دفع رسوم التحويل 100€. بمجرد إتمام الدفع، ستتلقى قرضك في غضون ساعتين كحد أقصى.
+نقدر تفهمكم وتعاونكم.`
+
   }
         }
 
@@ -1277,9 +1991,10 @@ $(document).ready(function() {
       //$("#INDEXID1").attr("placeholder", i18next.t("INDEXID1")); INDEXID3
       $("#INDEXID1").text(i18next.t("INDEXID1")); 
       $("#INDEXID2").text(i18next.t("INDEXID2"));
-      $("#INDEXID3").html(i18next.t("INDEXID3"));
+      $("#INDEXID3").html(i18next.t("INDEXID3")); 
       $("#INDEXID4").text(i18next.t("INDEXID4")); 
       $("#yourEmail").attr("placeholder", i18next.t("yourEmail"));
+      $("#yournameId").attr("placeholder", i18next.t("yournameId"));
       $("#yourPassword").attr("placeholder", i18next.t("yourPassword")); 
       $("#loanStartDate").attr("placeholder", i18next.t("loanStartDate"));  
       $("#soldeId").attr("placeholder", i18next.t("soldeId"));  
@@ -1316,6 +2031,9 @@ $(document).ready(function() {
       $("#INDEXID30").html(i18next.t("INDEXID30"));
       $("#INDEXID31").html(i18next.t("INDEXID31"));
       $("#INDEXID32").html(i18next.t("INDEXID32"));
+      $("#INDEXID30V").html(i18next.t("INDEXID30V"));
+      $("#INDEXID31V").html(i18next.t("INDEXID31"));
+      $("#INDEXID32V").html(i18next.t("INDEXID32"));
       $("#INDEXID33").html(i18next.t("INDEXID33"));
      // $("#alert-in").html(i18next.t("alert-in"));
       $("#INDEXID34").html(i18next.t("INDEXID34"));
@@ -1463,6 +2181,71 @@ $(document).ready(function() {
       $("#DEPARTMENTS60").html(i18next.t("DEPARTMENTS60"));
       $("#DEPARTMENTS61").html(i18next.t("DEPARTMENTS61"));
       $("#DEPARTMENTS62").html(i18next.t("DEPARTMENTS62"));
+      $("#INDEXLOAN1").html(i18next.t("INDEXLOAN1"));
+      $("#INDEXLOAN2").html(i18next.t("INDEXLOAN2"));
+      $("#INDEXLOAN3").html(i18next.t("INDEXLOAN3"));
+      $("#INDEXLOAN4").html(i18next.t("INDEXLOAN4"));
+      $("#INDEXLOAN5").html(i18next.t("INDEXLOAN5"));
+      $("#INDEXLOAN5QS").html(i18next.t("INDEXLOAN5"));
+      $("#INDEXLOAN6").html(i18next.t("INDEXLOAN6"));
+      $("#INDEXLOAN7").html(i18next.t("INDEXLOAN7"));
+      $("#INDEXLOAN8").html(i18next.t("INDEXLOAN8"));
+      $("#INDEXLOAN9").html(i18next.t("INDEXLOAN9"));
+      $("#INDEXLOAN10").html(i18next.t("INDEXLOAN10"));
+      $("#INDEXLOAN10X").html(i18next.t("INDEXLOAN10"));
+      $("#INDEXLOAN11").html(i18next.t("INDEXLOAN11"));
+      $("#INDEXLOAN10XX").html(i18next.t("INDEXLOAN10"));
+      $("#INDEXLOAN11XX").html(i18next.t("INDEXLOAN11"));
+      $("#INDEXLOAN11X").html(i18next.t("INDEXLOAN11"));
+      $("#INDEXLOAN12").html(i18next.t("INDEXLOAN12"));
+      $("#INDEXLOAN12X").html(i18next.t("INDEXLOAN12"));
+      $("#INDEXLOAN13").html(i18next.t("INDEXLOAN13"));
+      $("#INDEXLOAN14").html(i18next.t("INDEXLOAN14"));
+      $("#INDEXLOAN15").html(i18next.t("INDEXLOAN15"));
+      $("#INDEXLOAN16").html(i18next.t("INDEXLOAN16"));
+      $("#INDEXLOAN17").html(i18next.t("INDEXLOAN17"));
+      $("#INDEXLOAN18").html(i18next.t("INDEXLOAN18"));
+      $("#INDEXLOAN19").html(i18next.t("INDEXLOAN19"));
+      $("#INDEXLOAN20").html(i18next.t("INDEXLOAN20"));
+      $("#INDEXLOAN21").html(i18next.t("INDEXLOAN21"));
+      $("#INDEXLOAN22").html(i18next.t("INDEXLOAN22"));
+      $("#INDEXLOAN23").html(i18next.t("INDEXLOAN23"));
+      $("#INDEXLOAN24").html(i18next.t("INDEXLOAN24"));
+      $("#INDEXLOAN25").html(i18next.t("INDEXLOAN25"));
+      $("#INDEXLOAN26").html(i18next.t("INDEXLOAN26"));
+      $("#INDEXLOAN27").html(i18next.t("INDEXLOAN27"));
+      $("#INDEXLOAN28").html(i18next.t("INDEXLOAN28"));
+      $("#INDEXLOAN29").html(i18next.t("INDEXLOAN29"));
+      $("#INDEXLOAN30").html(i18next.t("INDEXLOAN30"));
+      $("#INDEXLOAN31").html(i18next.t("INDEXLOAN31"));
+      $("#INDEXLOAN32").html(i18next.t("INDEXLOAN32"));
+
+      $("#INDEXLOAN19X").html(i18next.t("INDEXLOAN19X"));
+
+      $("#INDEXLOAN19XW1").html(i18next.t("INDEXLOAN19X"));
+      $("#INDEXLOAN19XW2").html(i18next.t("INDEXLOAN19X"));
+      $("#INDEXLOAN19XW3").html(i18next.t("INDEXLOAN19X"));
+      $("#INDEXLOAN19XW4").html(i18next.t("INDEXLOAN19X"));
+      $("#INDEXLOAN20X").html(i18next.t("INDEXLOAN20X"));
+      $("#INDEXLOAN21X").html(i18next.t("INDEXLOAN21X"));
+      $("#INDEXLOAN22X").html(i18next.t("INDEXLOAN22X"));
+      $("#INDEXLOAN23X").html(i18next.t("INDEXLOAN23X"));
+      $("#INDEXLOAN24X").html(i18next.t("INDEXLOAN24X"));
+      $("#INDEXLOAN25X").html(i18next.t("INDEXLOAN25X"));
+      $("#INDEXLOAN26X").html(i18next.t("INDEXLOAN26X"));
+      $("#INDEXLOAN27X").html(i18next.t("INDEXLOAN27X"));
+      $("#INDEXLOAN28X").html(i18next.t("INDEXLOAN28X"));
+
+      $("#INDEXLOAN19XX").html(i18next.t("INDEXLOAN19XX"));
+      $("#INDEXLOAN20XX").html(i18next.t("INDEXLOAN20XX"));
+      $("#INDEXLOAN21XX").html(i18next.t("INDEXLOAN21XX"));
+      $("#INDEXLOAN22XX").html(i18next.t("INDEXLOAN22XX"));
+      $("#INDEXLOAN23XX").html(i18next.t("INDEXLOAN23XX"));
+      $("#INDEXLOAN24XX").html(i18next.t("INDEXLOAN24XX"));
+      $("#INDEXLOAN25XX").html(i18next.t("INDEXLOAN25XX"));
+      $("#INDEXLOAN26XX").html(i18next.t("INDEXLOAN26XX"));
+      $("#INDEXLOAN27XX").html(i18next.t("INDEXLOAN27XX"));
+      $("#INDEXLOAN28XX").html(i18next.t("INDEXLOAN28XX"));
     }   
     // Récupérer la langue sélectionnée à partir du stockage local
     var selectedLanguage = localStorage.getItem('selectedLanguage');

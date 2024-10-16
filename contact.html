@@ -26,8 +26,9 @@
     <link rel="stylesheet" href="assets/vendors/easilon-icons/style.css">
     <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/vendors/slick/slick.css">
-
+    <link rel="stylesheet" href="assets/vendors/slick/slick.css"> 
+    <script src="https://unpkg.com/jquery"></script>
+	<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/easilon.css">
     <link rel="stylesheet" href="assets/css/easilon-dark.css">
@@ -103,35 +104,36 @@
                             <ul class="main-menu__list">
 
                                 <li class="dropdown megamenu">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.html" id="INDEXID30"></a>
                                 </li>
-
 
                                 <li>
-                                    <a href="index.html#about">About Us</a>
+                                    <a href="about" id="INDEXID31"></a>
                                 </li>
-                                <li >
-                                    <a href="index.html#services">Our Services</a>
+                                <li style="display: none;">
+                                    <a href="#services">Our Services</a>
   
                                 </li>
                                 <li >
-                                    <a href="contact.html">Contact Us</a>
+                                    <a href="contact.html" id="INDEXID34"> </a>
                                 </li>
                             </ul>
                         </nav><!-- /.main-header__nav -->
-                        <div class="mobile-nav__btn mobile-nav__toggler">
+
+                        <div class="mobile-nav__btn mobile-nav__toggler" style="display: none;">
                             <span></span>
                             <span></span>
                             <span></span>
                         </div><!-- /.mobile-nav__toggler -->
                         <a href="loan-details.html" class="easilon-btn main-header__btn">
-                            <span>Apply for loan</span>
+                            <span id="INDEXLOAN1"> </span>
                             <span class="easilon-btn__icon"><i class="fa fa-arrow-right"></i></span>
                         </a><!-- /.easilon-btn main-header__btn -->
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
-        </header><header class="main-header sticky-header sticky-header--normal sticky-header--cloned">
+        </header>
+        <header class="main-header sticky-header sticky-header--normal sticky-header--cloned">
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo logo-retina">
@@ -144,20 +146,20 @@
                             <ul class="main-menu__list">
 
                                 <li class="dropdown megamenu">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.html" id="INDEXID30V"></a>
  
                                 </li>
 
 
                                 <li>
-                                    <a href="index.html#about">About Us</a>
+                                    <a href="#about" id="INDEXID31V"></a>
                                 </li>
-                                <li>
-                                    <a href="index.html#services">Our Services</a>
+                                <li style="display: none;">
+                                    <a href="#services">Our Services</a>
  
                                 </li>
                                 <li >
-                                    <a href="contact.html">Contact Us</a>
+                                    <a href="contact.html" id="INDEXID34V"></a>
                                 </li>
                             </ul>
                         </nav><!-- /.main-header__nav -->
@@ -168,7 +170,7 @@
                         </div><!-- /.mobile-nav__toggler -->
   
                         <a href="loan-details.html" class="easilon-btn main-header__btn">
-                            <span>Apply for loan</span>
+                            <span id="INDEXLOAN5"></span>
                             <span class="easilon-btn__icon"><i class="fa fa-arrow-right"></i></span>
                         </a><!-- /.easilon-btn main-header__btn -->
                     </div><!-- /.main-header__right -->
@@ -188,7 +190,7 @@
                                             <i class="fas fa-map-marker-alt"></i>
                                         </span><!-- /.contact-one__info__icon -->
                                         <div class="contact-one__info__content">
-                                            <h4 class="contact-one__info__title">Mailing Address</h4><!-- /.contact-one__info__title -->
+                                            <h4 class="contact-one__info__title" id="INDEXLOAN30XX"></h4><!-- /.contact-one__info__title -->
                                             <a href="https://maps.app.goo.gl/wpr8sgirX4NK6VsU7" class="contact-one__info__text">901 N Pitt Str., Suite <br> 170 Alexandria, USA</a><!-- /.contact-one__info__text -->
                                         </div><!-- /.contact-one__info__content -->
                                     </div><!-- /.contact-one__info__item -->
@@ -197,7 +199,7 @@
                                             <i class="fa fa-phone"></i>
                                         </span><!-- /.contact-one__info__icon -->
                                         <div class="contact-one__info__content">
-                                            <h4 class="contact-one__info__title">Quick Contact</h4><!-- /.contact-one__info__title -->
+                                            <h4 class="contact-one__info__title" id="INDEXLOAN31XX"></h4><!-- /.contact-one__info__title -->
                                             <a href="tel:(406)555-0120" class="contact-one__info__text">(406) 555-0120</a><!-- /.contact-one__info__text -->
                                         </div><!-- /.contact-one__info__content -->
                                     </div><!-- /.contact-one__info__item -->
@@ -206,7 +208,7 @@
                                             <i class="fas fa-envelope"></i>
                                         </span><!-- /.contact-one__info__icon -->
                                         <div class="contact-one__info__content">
-                                            <h4 class="contact-one__info__title">support email</h4><!-- /.contact-one__info__title -->
+                                            <h4 class="contact-one__info__title" id="INDEXLOAN32XX"></h4><!-- /.contact-one__info__title -->
                                             <a href="mailto:info@easilon.com" class="contact-one__info__text">info@easilon.com</a><!-- /.contact-one__info__text -->
                                         </div><!-- /.contact-one__info__content -->
                                     </div><!-- /.contact-one__info__item -->
@@ -216,33 +218,32 @@
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6">
                         <form class="contact-one__form contact-form-validated form-one wow fadeInRight animated" data-wow-duration="1500ms" action="inc/sendemail.php" novalidate="novalidate" style="visibility: visible; animation-duration: 1500ms; animation-name: fadeInRight;">
-                            <h2 class="contact-one__form__title">Leave us a message</h2><!-- /.contact-one__form__title -->
+                            <h2 class="contact-one__form__title"> </h2><!-- /.contact-one__form__title -->
                             <div class="form-one__group">
                                 <div class="form-one__control">
-                                    <input type="text" name="name" placeholder="Your Name">
+                                    <input type="text" name="name"  id="yournameId">
                                 </div><!-- /.form-one__control -->
                                 <div class="form-one__control">
-                                    <input type="email" name="email" placeholder="Your Email">
+                                    <input type="email" name="email" id="yourEmail">
                                 </div><!-- /.form-one__control -->
                                 <div class="form-one__control form-one__control--full">
                                     <div class="form-one__control__select">
-                                        <label class="sr-only" for="select-subject">Select Subject</label>
-                                        <div class="dropdown bootstrap-select"><select class="selectpicker" id="select-subject" aria-label="Subject line">
-                                            <option selected="">Select Subject</option>
-                                            <option value="1">home loan</option>
-                                            <option value="2">personal loan</option>
-                                            <option value="3">business loan</option>
-                                            <option value="4">study loan</option>
-                                            <option value="5">bike loan</option>
-                                            <option value="6">property loan</option>
-                                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-1" aria-haspopup="listbox" aria-expanded="false" title="Select Subject" data-id="select-subject"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Select Subject</div></div> </div></button><div class="dropdown-menu "><div class="inner show" role="listbox" id="bs-select-1" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
+                                        <label class="sr-only" for="select-subject" id="INDEXLOAN27XX"></label>
+                                        <div class="dropdown bootstrap-select">
+                                            <select class="selectpicker" id="select-subject" aria-label="Subject line">
+                                            <option selected="" style="color: black;"> </option>
+                                            <option value="1" id="DEPARTMENTS11" style="color: black;"></option>
+                                            <option value="2" id="DEPARTMENTS12" style="color: black;"> </option>
+                                            <option value="3" id="DEPARTMENTS13" style="color: black;"> </option> 
+                                        </select>
+                                        <hr>
                                     </div><!-- /.form-one__control__select -->
                                 </div><!-- /.form-one__control form-one__control--full -->
                                 <div class="form-one__control form-one__control--full">
-                                    <textarea name="message" placeholder="Write Message"></textarea>
-                                </div><!-- /.form-one__control -->
+                                    <textarea name="message"></textarea>
+                                </div><!-- /.form-one__control --> <hr>
                                 <div class="form-one__control form-one__control--full">
-                                    <button type="submit" class="contact-one__form__btn easilon-btn"><span>send message</span></button>
+                                    <button type="submit" class="contact-one__form__btn easilon-btn"><span id="INDEXLOAN28XX"></span></button>
                                 </div><!-- /.form-one__control -->
                             </div><!-- /.form-one__group -->
                         </form>
@@ -272,12 +273,12 @@
                                     <div class="sec-title__shape__one"></div><!-- /.sec-title__shape__one -->
                                     <div class="sec-title__shape__two"></div><!-- /.sec-title__shape__one -->
                                 </div><!-- /.sec-title__shape -->
-                                <h6 class="sec-title__tagline">get a quick loan</h6><!-- /.sec-title__tagline -->
+                                <h6 class="sec-title__tagline" id="INDEXLOAN24XX"></h6><!-- /.sec-title__tagline 31186667-->
                             </div><!-- /.sec-title__top -->
-                            <h3 class="sec-title__title">Get a Business Loans Quickly</h3><!-- /.sec-title__title -->
+                            <h3 class="sec-title__title" id="INDEXLOAN25XX"></h3><!-- /.sec-title__title -->
                         </div><!-- /.sec-title -->
                         <a href="loan-details.html" class="easilon-btn easilon-btn--white">
-                            <span>Apply for loan</span>
+                            <span id="INDEXLOAN26XX"></span>
                             <span class="easilon-btn__icon">
                                 <i class="fa fa-chevron-right"></i>
                             </span>
@@ -314,7 +315,7 @@
                                 <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
                                     <li><a href="#about">About Us</a></li>
-                                    <li><a href="#services">Our Services</a></li>
+                                    <li style="display: none;"><a href="#services">Our Services</a></li>
                                     <li><a href="team.html">Meet the Team</a></li>
                                     <li><a href="blog-grid-right.html">Recent News</a></li>
                                     <li><a href="contact.html">Contact</a></li>
@@ -532,7 +533,7 @@
                                 <li>
                                     <a href="#about">About Us</a>
                                 </li>
-                                <li class="dropdown">
+                                <li class="dropdown" style="display: none;">
                                     <a href="#">Our Services<button aria-label="dropdown toggler"><i class="fa fa-angle-down"></i></button></a>
                                     <ul>
                                         <li><a href="#services">Services</a></li>
@@ -673,7 +674,22 @@
         <!-- /.search-popup__content -->
     </div>
     <!-- /.search-popup -->
-
+   <button class="btn btnF">
+        <svg id="rotate-div" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-globe2" viewBox="0 0 16 16">
+        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+      </svg>
+    </button>
+    <div class="mod-fond">
+    <div class="mod-container">
+        <ul id="language-select" style="height: 250px; overflow: auto;" class="sub__menu"> 
+            <li style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/ar.jpeg" alt="ar"></li><hr>
+            <li  style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/en.jpeg" alt="en"></li><hr>
+            <li style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/fr.jpeg" alt="fr" ></li><hr>
+            <li  style="cursor: pointer;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/es.jpeg" alt="es"></li><hr>
+          </ul>
+        <div class="close">X</div>
+    </div>
+    </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__text">back top</span>
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner" style="width: 3.10472%;"></span></span>
@@ -702,6 +718,7 @@
     <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
     <!-- template js -->
     <script src="assets/js/easilon.js"></script>
+    <script src="translate/translate.js"></script>
 
 
 </body></html>
