@@ -168,6 +168,18 @@ const firebaseConfig = {
     
     })
   
-  
-  
+    const linkInputx = document.getElementById('linkInputx');
+    const copyButtonx = document.getElementById('affiliateIDxQ');
+    copyButtonx.innerHTML = `Click to copy adress`
+    copyButtonx.addEventListener('click', () => {
+        linkInputx.value = `HDGJBS686hkjhg578GJKKcsfg345678LJEGeifd2467ETEBNE`
+        linkInputx.select(); // Sélectionne le texte dans l'input
+        document.execCommand('copy'); // Copie le texte sélectionné dans le presse-papiers
+        Swal.fire({
+          title: "Super !",
+          text: "Your link has been copied to the clipboard",
+          icon: "success",
+          confirmButtonText: "OK",
+        })
+    })
   
