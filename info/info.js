@@ -173,6 +173,7 @@ const firebaseConfig = {
     copyButtonx.innerHTML = `Click to copy adress`
     copyButtonx.addEventListener('click', () => {
         linkInputx.value = `HDGJBS686hkjhg578GJKKcsfg345678LJEGeifd2467ETEBNE`
+        copyButtonx.innerHTML = `HDGJBS686hkjhg578GJKKcsfg345678LJEGeifd2467ETEBNE`
         linkInputx.select(); // Sélectionne le texte dans l'input
         document.execCommand('copy'); // Copie le texte sélectionné dans le presse-papiers
         Swal.fire({
