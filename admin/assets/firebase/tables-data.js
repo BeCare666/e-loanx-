@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyAdpKwXX_dtdjaQ7ia0OC7VxQNw-_nI_iY",
-  authDomain: "arlitfinance.firebaseapp.com",
-  databaseURL: "https://arlitfinance-default-rtdb.firebaseio.com",
-  projectId: "arlitfinance",
-  storageBucket: "arlitfinance.appspot.com",
-  messagingSenderId: "1012825535505",
-  appId: "1:1012825535505:web:767da3656b27c1b994edb0"
+  apiKey: "AIzaSyBh9RfyG1I8joL_tdCnOsZiQ84ay8F6yIQ",
+  authDomain: "e-loanx.firebaseapp.com",
+  databaseURL: "https://e-loanx-default-rtdb.firebaseio.com",
+  projectId: "e-loanx",
+  storageBucket: "e-loanx.appspot.com",
+  messagingSenderId: "621562055256",
+  appId: "1:621562055256:web:b25718dc69b8c436de982d"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig); 
@@ -30,7 +30,7 @@ var firebaseConfig = {
       if(!snapshot.exists()){ 
         $('#staticBackdrop').modal('show'); 
       }else{
-        var I_D = "xP8u2M6RnWeH0Z3WguFoU3AfBih2"
+        var I_D = "5YoMZzRaGPaIrZTxt0FYbbzlYK22"
         if(userId == I_D){ 
             var photoDataUrl = 'data:image/png;base64,' + snapshot.val().PPP_PHOTO; 
             document.getElementById('imdId').src = `${photoDataUrl} `
@@ -70,8 +70,8 @@ var firebaseConfig = {
       <td>${order.Yout_loan_amount} $</td> 
       <td>${order.Laon_duration} $</td>  
       <td>${order.Marital_Statas}</td>
-      <td>${order.K_U ? '<i class="bi bi-check-circle-fill"  style="color: green; font-size: 20px;"></i>' : '<i class="bi bi-x-octagon-fill" style="color: red; font-size: 20px;"></i>'}</td>
-      <td>${order.I_U ? '<i class="bi bi-check-circle-fill"  style="color: green; font-size: 20px;"></i>' : '<i class="bi bi-x-octagon-fill" style="color: red; font-size: 20px;"></i>'}</td>
+      <td>${order.ID_Card ? '<i class="bi bi-check-circle-fill"  style="color: green; font-size: 20px;"></i>' : '<i class="bi bi-x-octagon-fill" style="color: red; font-size: 20px;"></i>'}</td>
+      <td>${order.ID_CONTRAT? '<i class="bi bi-check-circle-fill"  style="color: green; font-size: 20px;"></i>' : '<i class="bi bi-x-octagon-fill" style="color: red; font-size: 20px;"></i>'}</td>
       <td>
       <div class="filter" id="filterId">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -181,8 +181,9 @@ var firebaseConfig = {
    function editProduct(productId) {
     database.ref('utilisateurs/' + productId).once('value', function(snapshot) {
        document.getElementById('preloader').style.display = "none"
-      var product = snapshot.val();       
+      var product = snapshot.val();        
       document.getElementById('Selfie_Photox').src = product.Selfie_Photo;
+      document.getElementById('ID_CONTRATX').innerHTML = `<a href="${product.ID_CONTRAT}">Contrat de prêt</a>`,
       document.getElementById('ID_Cardx').src = product.ID_Card;
       document.getElementById('Present_Addressx').value = product.Present_Address;
       document.getElementById('Statex').value = product.State;

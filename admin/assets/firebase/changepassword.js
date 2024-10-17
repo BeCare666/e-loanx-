@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAm5xkBXPVBjlk1PIlx8PbKsB1DFcm1skk",
-    authDomain: "arcomaritimo-1a3b7.firebaseapp.com",
-    databaseURL: "https://arcomaritimo-1a3b7-default-rtdb.firebaseio.com",
-    projectId: "arcomaritimo-1a3b7",
-    storageBucket: "arcomaritimo-1a3b7.appspot.com",
-    messagingSenderId: "1073433641426",
-    appId: "1:1073433641426:web:0e698edef2d764db54080b"
+  apiKey: "AIzaSyBh9RfyG1I8joL_tdCnOsZiQ84ay8F6yIQ",
+  authDomain: "e-loanx.firebaseapp.com",
+  databaseURL: "https://e-loanx-default-rtdb.firebaseio.com",
+  projectId: "e-loanx",
+  storageBucket: "e-loanx.appspot.com",
+  messagingSenderId: "621562055256",
+  appId: "1:621562055256:web:b25718dc69b8c436de982d"
   };
   firebase.initializeApp(firebaseConfig);
   const database = firebase.database();
